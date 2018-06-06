@@ -1,0 +1,429 @@
+{
+	"children" : 
+	[
+		{
+			"children" : 
+			[
+				{
+					"name" : "NIdentifier:void"
+				},
+				{
+					"name" : "NIdentifier:print"
+				},
+				{
+					"children" : 
+					[
+						{
+							"name" : "NIdentifier:string"
+						},
+						{
+							"name" : "NIdentifier:str"
+						}
+					],
+					"name" : "NVariableDeclaration"
+				}
+			],
+			"name" : "NFunctionDeclaration"
+		},
+		{
+			"children" : 
+			[
+				{
+					"name" : "NIdentifier:int"
+				},
+				{
+					"name" : "NIdentifier:printf"
+				},
+				{
+					"children" : 
+					[
+						{
+							"name" : "NIdentifier:string"
+						},
+						{
+							"name" : "NIdentifier:str"
+						}
+					],
+					"name" : "NVariableDeclaration"
+				}
+			],
+			"name" : "NFunctionDeclaration"
+		},
+		{
+			"children" : 
+			[
+				{
+					"name" : "NIdentifier:int"
+				},
+				{
+					"name" : "NIdentifier:puts"
+				},
+				{
+					"children" : 
+					[
+						{
+							"name" : "NIdentifier:string"
+						},
+						{
+							"name" : "NIdentifier:s"
+						}
+					],
+					"name" : "NVariableDeclaration"
+				}
+			],
+			"name" : "NFunctionDeclaration"
+		},
+		{
+			"children" : 
+			[
+				{
+					"children" : 
+					[
+						{
+							"name" : "NIdentifier:int"
+						},
+						{
+							"name" : "NIdentifier:dapa"
+						}
+					],
+					"name" : "NVariableDeclaration"
+				},
+				{
+					"children" : 
+					[
+						{
+							"name" : "NIdentifier:int"
+						},
+						{
+							"name" : "NIdentifier:dapb"
+						}
+					],
+					"name" : "NVariableDeclaration"
+				},
+				{
+					"children" : 
+					[
+						{
+							"name" : "NIdentifier:int"
+						},
+						{
+							"name" : "NIdentifier:dapc"
+						}
+					],
+					"name" : "NVariableDeclaration"
+				},
+				{
+					"children" : 
+					[
+						{
+							"name" : "NIdentifier:string"
+						},
+						{
+							"name" : "NIdentifier:daps"
+						}
+					],
+					"name" : "NVariableDeclaration"
+				}
+			],
+			"name" : "NStructDeclaration:dap"
+		},
+		{
+			"children" : 
+			[
+				{
+					"name" : "NIdentifier:int"
+				},
+				{
+					"name" : "NIdentifier:func"
+				},
+				{
+					"children" : 
+					[
+						{
+							"name" : "NIdentifier:int"
+						},
+						{
+							"name" : "NIdentifier:a"
+						}
+					],
+					"name" : "NVariableDeclaration"
+				},
+				{
+					"children" : 
+					[
+						{
+							"name" : "NIdentifier:string"
+						},
+						{
+							"name" : "NIdentifier:str"
+						}
+					],
+					"name" : "NVariableDeclaration"
+				},
+				{
+					"children" : 
+					[
+						{
+							"children" : 
+							[
+								{
+									"name" : "NIdentifier:int"
+								},
+								{
+									"name" : "NIdentifier:i"
+								}
+							],
+							"name" : "NVariableDeclaration"
+						},
+						{
+							"children" : 
+							[
+								{
+									"children" : 
+									[
+										{
+											"name" : "NIdentifier:i"
+										},
+										{
+											"name" : "NIdentifier:a"
+										}
+									],
+									"name" : "NAssignment"
+								},
+								{
+									"children" : 
+									[
+										{
+											"name" : "NIdentifier:i"
+										},
+										{
+											"name" : "NInteger:10"
+										}
+									],
+									"name" : "NBinaryOperator:272"
+								},
+								{
+									"children" : 
+									[
+										{
+											"name" : "NIdentifier:i"
+										},
+										{
+											"children" : 
+											[
+												{
+													"name" : "NIdentifier:i"
+												},
+												{
+													"name" : "NInteger:1"
+												}
+											],
+											"name" : "NBinaryOperator:287"
+										}
+									],
+									"name" : "NAssignment"
+								}
+							],
+							"name" : "NForStatement"
+						},
+						{
+							"children" : 
+							[
+								{
+									"name" : "NInteger:0"
+								}
+							],
+							"name" : "NReturnStatement"
+						}
+					],
+					"name" : "NBlock"
+				}
+			],
+			"name" : "NFunctionDeclaration"
+		},
+		{
+			"children" : 
+			[
+				{
+					"name" : "NIdentifier:int"
+				},
+				{
+					"name" : "NIdentifier:main"
+				},
+				{
+					"children" : 
+					[
+						{
+							"children" : 
+							[
+								{
+									"name" : "NIdentifier:dap"
+								},
+								{
+									"name" : "NIdentifier:xzp"
+								}
+							],
+							"name" : "NVariableDeclaration"
+						},
+						{
+							"children" : 
+							[
+								{
+									"children" : 
+									[
+										{
+											"children" : 
+											[
+												{
+													"name" : "NIdentifier:xzp"
+												},
+												{
+													"name" : "NIdentifier:dapa"
+												}
+											],
+											"name" : "NStructMember"
+										},
+										{
+											"name" : "NInteger:123"
+										}
+									],
+									"name" : "NStructAssignment"
+								}
+							],
+							"name" : "NExpressionStatement"
+						},
+						{
+							"children" : 
+							[
+								{
+									"name" : "NIdentifier:int"
+								},
+								{
+									"name" : "NIdentifier:c"
+								},
+								{
+									"name" : "NInteger:2014"
+								}
+							],
+							"name" : "NVariableDeclaration"
+						},
+						{
+							"children" : 
+							[
+								{
+									"children" : 
+									[
+										{
+											"children" : 
+											[
+												{
+													"name" : "NIdentifier:xzp"
+												},
+												{
+													"name" : "NIdentifier:daps"
+												}
+											],
+											"name" : "NStructMember"
+										},
+										{
+											"name" : "NInteger:317"
+										}
+									],
+									"name" : "NStructAssignment"
+								}
+							],
+							"name" : "NExpressionStatement"
+						},
+						{
+							"children" : 
+							[
+								{
+									"children" : 
+									[
+										{
+											"name" : "NIdentifier:c"
+										},
+										{
+											"children" : 
+											[
+												{
+													"children" : 
+													[
+														{
+															"name" : "NIdentifier:xzp"
+														},
+														{
+															"name" : "NIdentifier:dapa"
+														}
+													],
+													"name" : "NStructMember"
+												},
+												{
+													"name" : "NIdentifier:c"
+												}
+											],
+											"name" : "NBinaryOperator:287"
+										}
+									],
+									"name" : "NAssignment"
+								}
+							],
+							"name" : "NExpressionStatement"
+						},
+						{
+							"children" : 
+							[
+								{
+									"children" : 
+									[
+										{
+											"name" : "NIdentifier:printf"
+										},
+										{
+											"name" : "NLiteral:?? %d"
+										},
+										{
+											"name" : "NIdentifier:c"
+										}
+									],
+									"name" : "NMethodCall"
+								}
+							],
+							"name" : "NExpressionStatement"
+						},
+						{
+							"children" : 
+							[
+								{
+									"children" : 
+									[
+										{
+											"name" : "NIdentifier:puts"
+										},
+										{
+											"name" : "NLiteral:"
+										}
+									],
+									"name" : "NMethodCall"
+								}
+							],
+							"name" : "NExpressionStatement"
+						},
+						{
+							"children" : 
+							[
+								{
+									"name" : "NInteger:0"
+								}
+							],
+							"name" : "NReturnStatement"
+						}
+					],
+					"name" : "NBlock"
+				}
+			],
+			"name" : "NFunctionDeclaration"
+		}
+	],
+	"name" : "NBlock"
+}
